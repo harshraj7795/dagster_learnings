@@ -34,7 +34,7 @@ def taxi_zones_file():
 )
 def taxi_trips():
 	"""
-        The raw taxi trips dataset, loaded into a DuckDB database
+    The raw taxi trips dataset, loaded into a DuckDB database
     """
 	sql_query = """
 				create or replace table trips as (
